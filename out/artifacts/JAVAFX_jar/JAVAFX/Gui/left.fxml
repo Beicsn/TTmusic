@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TreeView?>
+
+
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.MenuItem?>
+<TreeView fx:id="leftTreeView" fx:controller="Controller.LeftController" prefHeight="724.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" >
+    <style>
+
+    </style>
+       <contextMenu >
+       <ContextMenu fx:id="leftContextMenu" >
+             <items >
+                    <MenuItem fx:id="createMenuItem" text="创建歌单" onAction="#createSongMenu" visible="false"/>
+                    <MenuItem fx:id="deleteMenuItem" text="删除歌单" onAction="#deleteSongMenu" visible="false"/>
+             </items>
+       </ContextMenu>
+       </contextMenu>
+       </TreeView>
+
+

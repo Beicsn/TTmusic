@@ -1,0 +1,52 @@
+/*所有按钮背景透明,去边框*/
+.button{
+    -fx-border-color: transparent;
+    -fx-border-width: 0;
+    -fx-background-radius: 0;
+    -fx-background-color: transparent;
+}
+.top_button{
+    -fx-pref-height: 30px;
+    -fx-pref-width: 30px;
+}
+#go_prev:hover{
+     -fx-cursor: HAND;
+ }
+#go_prev{
+    -fx-background-size: 30px;
+    -fx-background-repeat: no-repeat;
+    -fx-background-image: url("../Img/Top/go_prev.png") ;
+}
+#go_next:hover{
+    -fx-cursor: HAND;
+ }
+#go_next{
+    -fx-background-size: 30px;
+    -fx-background-image: url("../Img/Top/go_next.png") ;
+}
+#setting{
+    -fx-background-size: 30px;
+    -fx-background-image: url("../Img/Top/settingDark.png");
+}
+#setting:hover{
+    -fx-background-image: url("../Img/Top/setting.png") ;
+}
+#minimize{
+    -fx-background-image: url("../Img/Top/minmizeDark.png") ;
+}
+#minimize:hover{
+    -fx-background-image: url("../Img/Top/minmize.png");
+}
+#close{
+    -fx-background-image: url("../Img/Top/closeDark.png") ;
+}
+#close:hover{
+    -fx-background-image: url("../Img/Top/close.png");
+}
+#search_all{
+   -fx-cursor: HAND;
+}
+#search_all{
+
+    -fx-background-image: url("../Img/Top/search.png");
+}

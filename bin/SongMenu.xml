@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<songMenu-List>
+  <song-menu songMenuName="本地音频文件" createTime="2021年05月23日" parentId="-1" id="0"/>
+  <song-menu songMenuName="我喜欢的音乐" createTime="2021年05月23日" parentId="0" id="1"/>
+</songMenu-List>

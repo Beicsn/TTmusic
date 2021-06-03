@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu-List> 
+  <songMenu id="1"> 
+    <song-List> 
+      <song path="E:\Music\杨千嬅 - 勇.mp3"/>  
+      <song path="E:\Music\少女的祈祷 - 杨千嬅.mp3"/> 
+    </song-List> 
+  </songMenu>  
+  <songMenu id="2"> 
+    <song-List>
+      <song path="E:\JAVAFX\bin\cutPart\无条件剪辑版.mp3"/>
+    </song-List> 
+  </songMenu>  
+  <songMenu id="11"> 
+    <song-List> 
+      <song path="E:\Music\少女的祈祷 - 杨千嬅.mp3"/>  
+      <song path="E:\Music\杨千嬅 - 勇.mp3"/> 
+    </song-List> 
+  </songMenu>  
+  <songMenu id="12"> 
+    <song-List> 
+      <song path="E:\Music\陈奕迅-无条件.mp3"/>  
+      <song path="E:\Music\富士山下.mp3"/> 
+    </song-List> 
+  </songMenu>  
+  <songMenu id="15"> 
+    <song-List> 
+      <song path="E:\otherMusic\周深 - 悬崖之上.flac"/> 
+    </song-List> 
+  </songMenu> 
+</menu-List>

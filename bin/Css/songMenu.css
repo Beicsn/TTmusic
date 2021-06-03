@@ -1,0 +1,12 @@
+.button_songMenu{
+    -fx-background-color: #FF3030;
+    -fx-font-size: 17px;
+    -fx-text-fill: #ffff;
+    -fx-border-color: #FF3030;
+    -fx-background-radius: 17px;
+    -fx-border-radius: 17px;
+}
+.button_songMenu:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill: #000000;
+}

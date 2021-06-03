@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Separator?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="850.0" prefWidth="1300.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.TopController">
+   <top>
+      <AnchorPane prefHeight="52.0" prefWidth="1300.0" style="-fx-background-color:RGB(34,34,37)" BorderPane.alignment="CENTER">
+         <children>
+            <HBox layoutX="41.0" layoutY="6.0" prefHeight="52.0" prefWidth="250.0">
+               <children>
+                  <ImageView fitHeight="40.0" fitWidth="40.0" pickOnBounds="true" preserveRatio="true">
+                  <Image url="/Img/Top/logo.png" />
+                  </ImageView>
+                  <ImageView fitHeight="100.0" fitWidth="100.0" pickOnBounds="true" preserveRatio="true">
+                     <Image url="/Img/Top/logo_name.png" />
+                  </ImageView>
+               </children>
+            </HBox>
+            <HBox layoutX="466.0" layoutY="10.0" prefHeight="36.0" prefWidth="341.0" spacing="10.0">
+               <children>
+                  <Button fx:id="go_prev" mnemonicParsing="false" onAction="#goPrev" styleClass="top_button" />
+                  <Button fx:id="go_next" mnemonicParsing="false" onAction="#goNext" styleClass="top_button" />
+                  <TextField fx:id="searchText" promptText="请输入要搜索的歌曲/专辑/歌手" />
+                  <Button fx:id="search_all" mnemonicParsing="false" onAction="#searchSong" styleClass="top_button" />
+               </children>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+            </HBox>
+            <HBox layoutX="1163.0" layoutY="3.0" prefHeight="52.0" prefWidth="152.0" spacing="10.0">
+               <children>
+                  <Button fx:id="setting" mnemonicParsing="false" prefWidth="0.0" styleClass="top_button" onAction="#setUpAction" />
+                  <Button fx:id="minimize" mnemonicParsing="false" onAction="#minimizeAction" styleClass="top_button" />
+                  <Button fx:id="close" mnemonicParsing="false" onAction="#closeAction" styleClass="top_button" />
+               </children>
+            </HBox>
+            <Separator layoutY="52.0" prefHeight="10.0" prefWidth="1300.0" />
+         </children>
+      </AnchorPane>
+   </top>
+<!--   <bottom>-->
+<!--     <fx:include source="bottom.fxml" />-->
+<!--   </bottom>-->
+<!--   <left>-->
+<!--      <fx:include source="left.fxml" />-->
+<!--   </left>-->
+<!--   <right>-->
+<!--      <fx:include source="right.fxml" />-->
+<!--   </right>-->
+</BorderPane>

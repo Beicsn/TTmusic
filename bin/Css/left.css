@@ -1,0 +1,15 @@
+#leftTreeView .tree-cell{
+    -fx-background-color: RGB(43,43,43);
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+
+    -fx-border-color: transparent;
+}
+
+#leftTreeView .tree-cell .tree-disclosure-node .arrow {
+
+    -fx-background-color: white;
+}
+#leftTreeView:focused{
+    -fx-background-color: white;
+}

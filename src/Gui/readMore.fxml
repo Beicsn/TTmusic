@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="700.0" prefWidth="1300.0" style="-fx-background-color: RGB(45,45,45)" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller.ReadMoreController">
+   <children>
+      <HBox prefHeight="700.0" prefWidth="1300.0">
+         <children>
+            <VBox prefHeight="392.0" prefWidth="650.0">
+               <children>
+                  <Label fx:id="songName" text="歌曲名">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <HBox prefHeight="0.0" prefWidth="642.0" spacing="30.0">
+                     <children>
+                        <Label fx:id="album" text="专辑">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="singer" text="歌手">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                        <Label fx:id="songMenu" text="来源">
+                           <font>
+                              <Font size="15.0" />
+                           </font>
+                        </Label>
+                     </children>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </HBox>
+                  <TableView fx:id="messageTable" prefHeight="53.0" prefWidth="650.0">
+                    <columns>
+                      <TableColumn fx:id="messageColumn" prefWidth="594.0" text="附注" />
+                      <TableColumn fx:id="messageButton" minWidth="0.0" prefWidth="54.0">
+                           <graphic>
+                              <Button mnemonicParsing="false" onAction="#alterMessage" styleClass="backgroundButton" text="附注" />
+                           </graphic></TableColumn>
+                    </columns>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <placeholder>
+                        <Label>
+                           无附注内容
+                        </Label>
+                     </placeholder>
+                  </TableView>
+                  <HBox prefHeight="29.0" prefWidth="650.0">
+                     <children>
+                        <Button mnemonicParsing="false" onAction="#addLrc" styleClass="backgroundButton" text="添加歌词文件" />
+                        <Button mnemonicParsing="false" onAction="#deleteLrc" styleClass="backgroundButton" text="删除歌词文件" />
+                        <Button mnemonicParsing="false" onAction="#getLrcFromInternet" styleClass="backgroundButton" text="网络获取歌词文件" />
+                        <Button mnemonicParsing="false" onAction="#downLoadLrc" styleClass="backgroundButton" text="网络下载歌词文件">
+                           <opaqueInsets>
+                              <Insets />
+                           </opaqueInsets></Button>
+                     </children>
+                     <opaqueInsets>
+                        <Insets />
+                     </opaqueInsets>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </HBox>
+                  <TableView fx:id="lrcTable" prefHeight="529.0" prefWidth="650.0">
+
+                     <placeholder>
+                       <Label>无歌词文件</Label>
+                     </placeholder>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                     <columns>
+                        <TableColumn fx:id="lrcColumn" prefWidth="648.0">
+                           <graphic>
+                              <Label text="歌词">
+                                 <font>
+                                    <Font size="25.0" />
+                                 </font>
+                              </Label>
+                           </graphic>
+                        </TableColumn>
+                     </columns>
+                  </TableView>
+               </children>
+            </VBox>
+            <VBox prefHeight="724.0" prefWidth="650.0">
+               <children>
+                  <Label text="子音频">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets top="20.0" />
+                     </VBox.margin></Label>
+                  <TableView fx:id="cutPartTable" prefHeight="628.0" prefWidth="650.0">
+                    <columns>
+                      <TableColumn fx:id="cutStartColumn" prefWidth="145.0" text="开始时间" />
+                      <TableColumn fx:id="cutEndColumn" minWidth="0.0" prefWidth="157.0" text="截止时间" />
+                       <TableColumn fx:id="operation1Column" minWidth="0.0" prefWidth="98.0" />
+                       <TableColumn fx:id="operation2Column" minWidth="0.0" prefWidth="127.0" />
+                        <TableColumn fx:id="operation3Column" prefWidth="121.0" />
+                    </columns>
+                     <VBox.margin>
+                        <Insets top="30.0" />
+                     </VBox.margin>
+                  </TableView>
+                  <VBox prefHeight="39.0" prefWidth="650.0">
+                     <children>
+                        <Label text="音频截取">
+                           <font>
+                              <Font size="25.0" />
+                           </font></Label>
+                        <HBox prefHeight="100.0" prefWidth="200.0">
+                           <children>
+                              <Button mnemonicParsing="false" onAction="#startCut" styleClass="backgroundButton" text="开始截取" />
+                              <Label fx:id="startTimeLabel" text="开始时间">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font></Label>
+                              <Button mnemonicParsing="false" onAction="#endCut" styleClass="backgroundButton" text="停止截取" />
+                              <Label fx:id="endTimeLabel" text="截止时间">
+                                 <font>
+                                    <Font size="16.0" />
+                                 </font></Label>
+                              <Button mnemonicParsing="false" onAction="#listenCutPart" styleClass="backgroundButton" text="试听" />
+                              <Button mnemonicParsing="false" onAction="#createNewFile" styleClass="backgroundButton" text="生成新音频" />
+                              <Button mnemonicParsing="false" onAction="#addCutPart" styleClass="backgroundButton" text="添加到子音频" />
+                              <Button mnemonicParsing="false" onAction="#setSliderVisible" styleClass="backgroundButton" text="开启滑动截取" />
+                              <Button mnemonicParsing="false" onAction="#setSliderNotVisible" styleClass="backgroundButton" text="关闭滑动截取" />
+                           </children>
+                        </HBox>
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+         </children>
+      </HBox>
+   </children>
+</AnchorPane>

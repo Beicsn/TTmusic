@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<cutPart> 
+  <song path="E:\Music\少女的祈祷 - 杨千嬅.mp3"> 
+    <children> 
+      <child startProgress="33.210788070132416" endMillis="80971.0" startMillis="70943.0"/>  
+      <child startProgress="46.69733384761049" endMillis="160534.0" startMillis="99491.0"/>  
+      <child startProgress="21.53846153846154" endMillis="194567.3076923077" startMillis="45876.92307692308"/>
+    </children> 
+  </song>  
+  <song path="E:\Music\杨千嬅 - 勇.mp3"> 
+    <children/> 
+  </song>  
+  <song path="E:\Music\陈奕迅-无条件.mp3"> 
+    <children> 
+      <child startProgress="30.257378989315086" endMillis="80810.0" startMillis="70039.0"/> 
+    </children> 
+  </song>  
+  <song path="E:\otherMusic\周深 - 悬崖之上.flac"> 
+    <children> 
+      <child startProgress="17.115384615384617" endMillis="280603.8461538462" startMillis="50148.07692307692"/>  
+      <child startProgress="50.19230769230769" endMillis="242288.46153846156" startMillis="147063.46153846153"/>  
+      <child startProgress="44.230769230769226" endMillis="247359.61538461538" startMillis="129596.15384615384"/>  
+      <child startProgress="54.61538461538461" endMillis="255248.07692307694" startMillis="160023.0769230769"/> 
+    </children> 
+  </song> 
+</cutPart>

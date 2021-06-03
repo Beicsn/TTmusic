@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<songMenu-List> 
+  <song-menu songMenuName="本地音频文件" createTime="2021年04月10日" parentId="-1" id="0"/>  
+  <song-menu songMenuName="我喜欢的音乐" createTime="2021年04月10日" parentId="0" id="1"/>  
+  <song-menu songMenuName="剪辑音乐" createTime="2021年04月24日" parentId="0" id="2"/>  
+  <song-menu songMenuName="4月15日歌曲" createTime="2021年04月30日" parentId="0" id="9"/>  
+  <song-menu songMenuName="粤语歌曲" createTime="2021年04月30日" parentId="9" id="10"/>  
+  <song-menu songMenuName="杨千嬅" createTime="2021年04月30日" parentId="10" id="11"/>  
+  <song-menu songMenuName="陈奕迅" createTime="2021年04月30日" parentId="10" id="12"/>  
+  <song-menu songMenuName="国语歌曲" createTime="2021年05月09日" parentId="9" id="14"/>  
+  <song-menu songMenuName="周深" createTime="2021年05月09日" parentId="14" id="15"/>  
+  <song-menu songMenuName="周杰伦" createTime="2021年05月09日" parentId="14" id="16"/>
+</songMenu-List>

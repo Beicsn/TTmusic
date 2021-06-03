@@ -1,0 +1,125 @@
+.bottom_button{
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+}
+#broadcast_order{
+    -fx-background-color: transparent;
+}
+ #broadcast_order .arrow{
+    -fx-background-color: transparent;
+}
+
+#broadcast_prev{
+    -fx-background-image: url("../Img/Bottom/broadcast_prevDark.png");
+    -fx-background-size: 35px;
+}
+#broadcast_prev:hover{
+    -fx-background-image: url("../Img/Bottom/broadcast_prev.png");
+    -fx-background-size: 35px;
+
+}
+.broadcast_pause{
+    -fx-background-image: url("../Img/Bottom/broadcast_pauseDark.png");
+    -fx-background-size: 35px;
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+}
+.broadcast_pause:hover{
+    -fx-background-image: url("../Img/Bottom/broadcast_pause.png");
+    -fx-background-size: 35px;
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+}
+.broadcast_play{
+    -fx-background-image: url("../Img/Bottom/broadcast_playDark.png");
+    -fx-background-size: 35px;
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+}
+.broadcast_play:hover{
+    -fx-background-image: url("../Img/Bottom/broadcast_play.png");
+    -fx-background-size: 35px;
+    -fx-pref-width: 35px;
+    -fx-pref-height: 35px;
+}
+#broadcast_next{
+     -fx-background-image: url("../Img/Bottom/broadcast_nextDark.png");
+    -fx-background-size: 35px;
+ }
+#broadcast_next:hover{
+    -fx-background-image: url("../Img/Bottom/broadcast_next.png");
+    -fx-background-size: 35px;
+}
+#broadcast_list{
+    -fx-background-image: url("../Img/Bottom/broadcast_listDark.png");
+    -fx-background-size: 35px;
+}
+#broadcast_list:hover{
+    -fx-background-image: url("../Img/Bottom/broadcast_list.png");
+    -fx-background-size: 35px;
+}
+.volume{
+    -fx-background-image: url("../Img/Bottom/volumeDark.png");
+    -fx-background-size: 25px;
+    -fx-background-repeat: no-repeat;
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+}
+.volume:hover{
+    -fx-background-image: url("../Img/Bottom/volume.png");
+    -fx-background-size: 25px;
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-background-repeat: no-repeat;
+}
+.volumeZero{
+    -fx-background-image: url("../Img/Bottom/volumeZeroDark.png");
+    -fx-background-size: 25px;
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-background-repeat: no-repeat;
+}
+.volumeZero:hover{
+    -fx-background-image: url("../Img/Bottom/volumeZero.png");
+    -fx-background-size: 25px;
+    -fx-pref-width: 25px;
+    -fx-pref-height: 25px;
+    -fx-background-repeat: no-repeat;
+}
+#cd{
+
+    -fx-image: url("../Img/Bottom/cdDark.png");
+}
+#cd:hover{
+    -fx-image: url("../Img/Bottom/cd.png");
+}
+
+.progress-bar{
+
+    -fx-accent:red;
+}
+/*以下是横滑动条的样式设置*/
+.slider .thumb {
+    -fx-pref-height: 10;
+    -fx-min-height: 10;
+    -fx-max-height: 10;
+    -fx-pref-width:10;
+    -fx-min-width: 10;
+    -fx-max-width: 10;
+    -fx-background-color: red;
+
+    -fx-background-insets: 0, 1, 2;
+    -fx-background-radius: 2.0em; /* makes sure this remains circular */
+    -fx-padding: 0.583333em;  /* 7 */
+}
+.slider .thumb:focused , .slider .thumb:hover{
+    -fx-effect: dropshadow(three-pass-box , white, 20, 0.0 , 0, 0);
+    -fx-background-radius: 1.0em; /* makes sure this remains circular */
+}
+
+.slider .track {
+    -fx-background-color: null; /* Hide the track */
+
+}
+
+

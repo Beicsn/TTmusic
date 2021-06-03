@@ -1,0 +1,157 @@
+.right_button{
+    -fx-background-color: #FF3030;
+    -fx-font-size: 12px;
+    -fx-text-fill: #ffff;
+    -fx-border-color: #FF3030;
+    -fx-background-radius: 15px;
+    -fx-border-radius: 15px;
+}
+.right_button:hover{
+    -fx-background-color: #ffff;
+    -fx-text-fill: #000000;
+
+    -fx-border-color: red;
+    -fx-border-width: 1px;
+}
+/*表中勾选框改成红爱心的设置*/
+.table-cell{
+    -fx-pref-height: 30px;
+
+}
+.check-box-table-cell {
+    -fx-alignment: center;
+    -fx-padding: 0;
+}
+.check-box-table-cell > .check-box {
+    -fx-opacity: 1;
+    -fx-padding: 0 0 0 0;
+}
+
+.check-box-table-cell > .check-box:hover {
+    -fx-effect: dropshadow(three-pass-box , -fx-shadow-highlight-color, 5, 0.0 , 0, 0);
+}
+
+.check-box-table-cell > .check-box > .box {
+    -fx-pref-height: 19;
+    -fx-pref-width: 19;
+    -fx-background-color: #bfbfbf;
+    -fx-background-insets: 0, 0 0 0 0;
+    -fx-shape: "m240.75349,246.24733c-19.67957,-16.53836 -26.71553,-26.99994 -26.77217,-39.80664c-0.05231,-11.67738 8.633,-22.94395 17.6339,-22.88075c4.49556,0.03326 14.13744,4.33099 17.5517,7.82373c1.72049,1.75967 2.53487,1.5867 6.36438,-1.35718c10.42403,-8.00502 20.6032,-8.173 27.19536,-0.4474c10.53561,12.34599 8.6178,27.09033 -5.51373,42.38446c-7.51349,8.12979 -23.92108,22.55653 -25.65549,22.55653c-0.5284,0 -5.39021,-3.72223 -10.80394,-8.27275l0,0z";
+}
+
+.check-box-table-cell > .check-box:selected > .box {
+    -fx-background-color: null;
+}
+
+.check-box-table-cell > .check-box:selected > .box > .mark {
+    -fx-min-height: 19;
+    -fx-min-width: 19;
+    -fx-background-color: red;
+    -fx-background-insets: 0, 1 0 0 0;
+    -fx-shape: "m308.50922,243.51909c-30.9054,-26.30971 -41.95804,-42.95123 -42.05154,-63.32677c-0.07797,-18.57214 13.5625,-36.50041 27.70175,-36.39917c7.05408,0.05774 22.19885,6.89209 27.56296,12.44633c2.70462,2.79889 3.98291,2.52402 9.99246,-2.15517c16.37622,-12.73573 32.36386,-13.00334 42.71512,-0.7159c16.54074,19.64244 13.53146,43.09985 -8.65979,67.42815c-11.80194,12.93759 -37.57077,35.88528 -40.29871,35.88528c-0.82617,0 -8.4584,-5.92317 -16.96225,-13.16277l0,0z";
+}
+
+
+
+
+/*以上是table的设置*/
+
+.table-row-cell{
+    -fx-background-color: RGB(43,43,43);
+        -fx-text-fill: RGB(205,205,205);
+        -fx-font-weight: bold;
+        -fx-border-color: RGB(43,43,43);
+}
+.table-row-cell:odd{
+    -fx-background-color: RGB(46,46,46);
+    -fx-border-color: RGB(46,46,46);
+}
+.table-row-cell:selected{
+    -fx-background-color:RGB(55,55,55);
+}
+#songTableView {
+     -fx-text-fill: RGB(205,205,205);
+ }
+ .table-view .column-header {
+    -fx-background-color: RGB(46,46,46);
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+    -fx-border-color: RGB(46,46,46);
+}
+.table-view{
+    -fx-background-color: transparent;
+}
+
+
+#tableColumn_Title{
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+     -fx-border-color: transparent;
+}
+#tableColumn_Title:hover{
+    -fx-background-color:RGB(55,55,55);
+
+}
+
+
+#tableColumn_Album{
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+}
+#tableColumn_Album:hover{
+    -fx-background-color:RGB(55,55,55);
+}
+
+#tableColumn_Singer{
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+}
+#tableColumn_Singer:hover{
+    -fx-background-color:RGB(55,55,55);
+}
+
+#tableColumn_Time{
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+}
+#tableColumn_Time:hover{
+    -fx-background-color:RGB(55,55,55);
+}
+
+#tableColumn_Size{
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+}
+#tableColumn_Size:hover{
+    -fx-background-color:RGB(55,55,55);
+}
+
+
+#tableColumn_Like{
+    -fx-text-fill: RGB(205,205,205);
+    -fx-font-weight: bold;
+    -fx-border-color: transparent;
+}
+#tableColumn_Like:hover{
+    -fx-background-color:RGB(55,55,55);
+}
+.label{
+    -fx-text-fill: white;
+}
+.context-menu {
+    -fx-background-color: RGB(48,47,51);
+
+}
+
+.menu-item:hover{
+     -fx-background-color: RGB(59,58,61);
+
+ }
+.menu-item:focused{
+    -fx-background-color: RGB(59,58,61);
+
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<localMusic> 
+  <song> 
+    <path>E:\Music\陈奕迅-无条件.mp3</path>  
+    <size>8.80M</size>  
+    <isLike>NO</isLike>  
+    <tag> 
+      <album/>  
+      <artist>陈奕迅</artist>  
+      <songName>无条件</songName>  
+      <time>03:49</time> 
+    </tag> 
+  </song>  
+  <song> 
+    <path>E:\Music\富士山下.mp3</path>  
+    <size>8.00M</size>  
+    <isLike>NO</isLike>  
+    <tag> 
+      <album>Solidays 新曲+精选</album>  
+      <artist>陈奕迅</artist>  
+      <songName>富士山下</songName>  
+      <time>04:19</time> 
+    </tag> 
+  </song>  
+  <song> 
+    <path>E:\Music\少女的祈祷 - 杨千嬅.mp3</path>  
+    <size>8.20M</size>  
+    <isLike>YES</isLike>  
+    <tag> 
+      <album>Miriam's Melodies</album>  
+      <artist>杨千嬅</artist>  
+      <songName>少女的祈祷</songName>  
+      <time>03:33</time> 
+    </tag> 
+  </song>  
+  <song> 
+    <path>E:\Music\杨千嬅 - 勇.mp3</path>  
+    <size>3.38M</size>  
+    <isLike>YES</isLike>  
+    <tag> 
+      <album>千嬅盛放</album>  
+      <artist>杨千嬅</artist>  
+      <songName>勇</songName>  
+      <time>03:41</time> 
+    </tag> 
+  </song>  
+  <song> 
+    <path>E:\otherMusic\周深 - 悬崖之上.flac</path>  
+    <size>28.06M</size>  
+    <isLike>NO</isLike>  
+    <tag> 
+      <album>悬崖之上</album>  
+      <artist>周深</artist>  
+      <songName>悬崖之上</songName>  
+      <time>4:53</time> 
+    </tag> 
+  </song>  
+  <song> 
+    <path>E:\JAVAFX\bin\cutPart\无条件剪辑版.mp3</path>  
+    <size>478.00K</size>  
+    <isLike>NO</isLike>  
+    <tag> 
+      <album/>  
+      <artist>陈奕迅</artist>  
+      <songName>无条件剪辑版</songName>  
+      <time>00:11</time> 
+    </tag> 
+  </song> 
+</localMusic>
